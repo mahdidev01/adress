@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-02-28 10:46:15
+/* Smarty version 3.1.39, created on 2025-02-28 11:28:27
   from 'C:\laragon\www\youradress\modules\blockuserinfo\nav-xs.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_67c193f72ef357_32490435',
+  'unifunc' => 'content_67c19ddb02feb9_69693418',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67c193f72ef357_32490435 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67c19ddb02feb9_69693418 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <ul class="nav nav-pills nav-stacked visible-xs wk-nav-style">
 	<?php if ($_smarty_tpl->tpl_vars['logged']->value) {?>

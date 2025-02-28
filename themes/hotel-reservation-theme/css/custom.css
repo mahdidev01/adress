@@ -199,8 +199,8 @@
   }
   @media (max-width: 768px) {
     h1.header-hotel-name {
-      font-size: 25px !important;
-      margin-top: 70px;
+      font-size: 29px !important;
+      margin-top: 25px;
       line-height: 35px;
     }
   }

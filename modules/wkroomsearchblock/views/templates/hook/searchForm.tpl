@@ -293,10 +293,10 @@
                                         {/if}
                                     </div>
                                     <div class="occupancy_block_actions">
-                                        <span id="add_new_occupancy">
+                                        {* <span id="add_new_occupancy">
                                             <a class="add_new_occupancy_btn" href="#"><i class="icon-plus"></i>
                                                 <span>{l s='Add Room' mod='wkroomsearchblock'}</span></a>
-                                        </span>
+                                        </span> *}
                                         <span>
                                             <button
                                                 class="submit_occupancy_btn btn btn-primary">{l s='Done' mod='wkroomsearchblock'}</button>

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-02-28 10:46:38
+/* Smarty version 3.1.39, created on 2025-02-28 11:28:47
   from 'C:\laragon\www\youradress\themes\hotel-reservation-theme\_partials\room_type_list.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_67c1940e4f0e12_68374621',
+  'unifunc' => 'content_67c19defc3aab7_73745615',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,13 +22,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:./quantity_field.tpl' => 1,
   ),
 ),false)) {
-function content_67c1940e4f0e12_68374621 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67c19defc3aab7_73745615 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_128300601167c1940e4c8444_86535433', 'displayRoomTypeListBefore');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_157050994967c19defc0c229_46174524', 'displayRoomTypeListBefore');
 ?>
 
 <?php if ((isset($_smarty_tpl->tpl_vars['booking_data']->value['stats'])) && $_smarty_tpl->tpl_vars['booking_data']->value['stats']['num_avail']) {?>
@@ -43,11 +43,11 @@ $_smarty_tpl->tpl_vars['room_v']->do_else = false;
 ">
 				<div class="row">
 					<?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_43996230267c1940e4d1401_43656736', 'room_type_list_room_image');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_213574041367c19defc196e8_72541063', 'room_type_list_room_image');
 ?>
 
 					<?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_10188250767c1940e4d3634_63560734', 'room_type_list_room_detail');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_117851686267c19defc1c6c7_76201950', 'room_type_list_room_detail');
 ?>
 
 				</div>
@@ -64,12 +64,12 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);
 <?php }
 }
 /* {block 'displayRoomTypeListBefore'} */
-class Block_128300601167c1940e4c8444_86535433 extends Smarty_Internal_Block
+class Block_157050994967c19defc0c229_46174524 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'displayRoomTypeListBefore' => 
   array (
-    0 => 'Block_128300601167c1940e4c8444_86535433',
+    0 => 'Block_157050994967c19defc0c229_46174524',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -82,7 +82,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'displayRoomTypeListBefore'} */
 /* {block 'displayRoomTypeListImageAfter'} */
-class Block_112975536667c1940e4d2929_14530227 extends Smarty_Internal_Block
+class Block_123128523967c19defc1af45_04622212 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -94,16 +94,16 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'displayRoomTypeListImageAfter'} */
 /* {block 'room_type_list_room_image'} */
-class Block_43996230267c1940e4d1401_43656736 extends Smarty_Internal_Block
+class Block_213574041367c19defc196e8_72541063 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'room_type_list_room_image' => 
   array (
-    0 => 'Block_43996230267c1940e4d1401_43656736',
+    0 => 'Block_213574041367c19defc196e8_72541063',
   ),
   'displayRoomTypeListImageAfter' => 
   array (
-    0 => 'Block_112975536667c1940e4d2929_14530227',
+    0 => 'Block_123128523967c19defc1af45_04622212',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -115,7 +115,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 								<img src="<?php echo mb_convert_encoding(htmlspecialchars($_smarty_tpl->tpl_vars['room_v']->value['image'], ENT_QUOTES, 'UTF-8', true), "HTML-ENTITIES", 'UTF-8');?>
 " class="img-responsive room-type-image">
 								<?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_112975536667c1940e4d2929_14530227', 'displayRoomTypeListImageAfter', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_123128523967c19defc1af45_04622212', 'displayRoomTypeListImageAfter', $this->tplIndex);
 ?>
 
 							</a>
@@ -125,7 +125,7 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_112975536667c1940e
 }
 /* {/block 'room_type_list_room_image'} */
 /* {block 'room_type_list_room_quantity'} */
-class Block_142795593567c1940e4d3957_62954496 extends Smarty_Internal_Block
+class Block_93810722867c19defc1ccf4_61148516 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -147,7 +147,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'room_type_list_room_quantity'} */
 /* {block 'room_type_list_room_description'} */
-class Block_124526908767c1940e4d6931_72860700 extends Smarty_Internal_Block
+class Block_108501431367c19defc203e2_42328517 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -161,7 +161,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'room_type_list_room_description'} */
 /* {block 'room_type_list_room_features'} */
-class Block_90736159967c1940e4d84f8_50628921 extends Smarty_Internal_Block
+class Block_203014898267c19defc21ff0_87304889 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -189,7 +189,7 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
 }
 /* {/block 'room_type_list_room_features'} */
 /* {block 'room_type_list_room_max_guests_mobile'} */
-class Block_71624839967c1940e4dcc34_42522674 extends Smarty_Internal_Block
+class Block_119005168167c19defc263c6_64678885 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -211,7 +211,7 @@ echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUG
 }
 /* {/block 'room_type_list_room_max_guests_mobile'} */
 /* {block 'room_type_list_room_price'} */
-class Block_199407755967c1940e4e0df3_38279189 extends Smarty_Internal_Block
+class Block_139041949667c19defc296d7_22027102 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -242,7 +242,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'room_type_list_room_price'} */
 /* {block 'room_type_list_room_max_guests'} */
-class Block_130444472567c1940e4e6495_52019692 extends Smarty_Internal_Block
+class Block_67989750667c19defc2e523_41900966 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -264,7 +264,7 @@ echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUG
 }
 /* {/block 'room_type_list_room_max_guests'} */
 /* {block 'occupancy_field'} */
-class Block_121907659167c1940e4eae30_47641541 extends Smarty_Internal_Block
+class Block_132489387567c19defc34bc1_79987847 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -276,7 +276,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'occupancy_field'} */
 /* {block 'quantity_field'} */
-class Block_148651065167c1940e4ec095_72224302 extends Smarty_Internal_Block
+class Block_23964912367c19defc35e03_15316649 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -288,7 +288,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'quantity_field'} */
 /* {block 'room_type_list_room_book_now_button'} */
-class Block_124844212867c1940e4ecdf7_37699067 extends Smarty_Internal_Block
+class Block_198258894667c19defc36b89_54883981 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -307,7 +307,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'room_type_list_room_book_now_button'} */
 /* {block 'room_type_list_room_booking_fields'} */
-class Block_84274846567c1940e4e9be7_76057988 extends Smarty_Internal_Block
+class Block_55792855567c19defc339c5_28795766 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -317,7 +317,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 													<?php if ((isset($_smarty_tpl->tpl_vars['occupancy_required_for_booking']->value)) && $_smarty_tpl->tpl_vars['occupancy_required_for_booking']->value) {?>
 														<div class="booking_guest_occupancy_conatiner">
 															<?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_121907659167c1940e4eae30_47641541', 'occupancy_field', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_132489387567c19defc34bc1_79987847', 'occupancy_field', $this->tplIndex);
 ?>
 
 														</div>
@@ -326,13 +326,13 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_121907659167c1940e
 															<label><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Qty:'),$_smarty_tpl ) );?>
 </label>
 															<?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_148651065167c1940e4ec095_72224302', 'quantity_field', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_23964912367c19defc35e03_15316649', 'quantity_field', $this->tplIndex);
 ?>
 
 														</div>
 													<?php }?>
 													<?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_124844212867c1940e4ecdf7_37699067', 'room_type_list_room_book_now_button', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_198258894667c19defc36b89_54883981', 'room_type_list_room_book_now_button', $this->tplIndex);
 ?>
 
 												<?php }?>
@@ -342,52 +342,52 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_124844212867c1940e
 }
 /* {/block 'room_type_list_room_booking_fields'} */
 /* {block 'room_type_list_room_detail'} */
-class Block_10188250767c1940e4d3634_63560734 extends Smarty_Internal_Block
+class Block_117851686267c19defc1c6c7_76201950 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'room_type_list_room_detail' => 
   array (
-    0 => 'Block_10188250767c1940e4d3634_63560734',
+    0 => 'Block_117851686267c19defc1c6c7_76201950',
   ),
   'room_type_list_room_quantity' => 
   array (
-    0 => 'Block_142795593567c1940e4d3957_62954496',
+    0 => 'Block_93810722867c19defc1ccf4_61148516',
   ),
   'room_type_list_room_description' => 
   array (
-    0 => 'Block_124526908767c1940e4d6931_72860700',
+    0 => 'Block_108501431367c19defc203e2_42328517',
   ),
   'room_type_list_room_features' => 
   array (
-    0 => 'Block_90736159967c1940e4d84f8_50628921',
+    0 => 'Block_203014898267c19defc21ff0_87304889',
   ),
   'room_type_list_room_max_guests_mobile' => 
   array (
-    0 => 'Block_71624839967c1940e4dcc34_42522674',
+    0 => 'Block_119005168167c19defc263c6_64678885',
   ),
   'room_type_list_room_price' => 
   array (
-    0 => 'Block_199407755967c1940e4e0df3_38279189',
+    0 => 'Block_139041949667c19defc296d7_22027102',
   ),
   'room_type_list_room_max_guests' => 
   array (
-    0 => 'Block_130444472567c1940e4e6495_52019692',
+    0 => 'Block_67989750667c19defc2e523_41900966',
   ),
   'room_type_list_room_booking_fields' => 
   array (
-    0 => 'Block_84274846567c1940e4e9be7_76057988',
+    0 => 'Block_55792855567c19defc339c5_28795766',
   ),
   'occupancy_field' => 
   array (
-    0 => 'Block_121907659167c1940e4eae30_47641541',
+    0 => 'Block_132489387567c19defc34bc1_79987847',
   ),
   'quantity_field' => 
   array (
-    0 => 'Block_148651065167c1940e4ec095_72224302',
+    0 => 'Block_23964912367c19defc35e03_15316649',
   ),
   'room_type_list_room_book_now_button' => 
   array (
-    0 => 'Block_124844212867c1940e4ecdf7_37699067',
+    0 => 'Block_198258894667c19defc36b89_54883981',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -395,36 +395,36 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 
 						<div class="col-sm-8 room_info_cont">
 							<?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_142795593567c1940e4d3957_62954496', 'room_type_list_room_quantity', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_93810722867c19defc1ccf4_61148516', 'room_type_list_room_quantity', $this->tplIndex);
 ?>
 
 							<?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_124526908767c1940e4d6931_72860700', 'room_type_list_room_description', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_108501431367c19defc203e2_42328517', 'room_type_list_room_description', $this->tplIndex);
 ?>
 
 							<div class="room_features_cont">
 								<div class="row">
 									<?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_90736159967c1940e4d84f8_50628921', 'room_type_list_room_features', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_203014898267c19defc21ff0_87304889', 'room_type_list_room_features', $this->tplIndex);
 ?>
 
 									<?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_71624839967c1940e4dcc34_42522674', 'room_type_list_room_max_guests_mobile', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_119005168167c19defc263c6_64678885', 'room_type_list_room_max_guests_mobile', $this->tplIndex);
 ?>
 
 									<?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_199407755967c1940e4e0df3_38279189', 'room_type_list_room_price', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_139041949667c19defc296d7_22027102', 'room_type_list_room_price', $this->tplIndex);
 ?>
 
 								</div>
 								<div class="row">
 									<?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_130444472567c1940e4e6495_52019692', 'room_type_list_room_max_guests', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_67989750667c19defc2e523_41900966', 'room_type_list_room_max_guests', $this->tplIndex);
 ?>
 
 									<div class="col-sm-12 col-md-6 col-lg-8">
 										<?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_84274846567c1940e4e9be7_76057988', 'room_type_list_room_booking_fields', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_55792855567c19defc339c5_28795766', 'room_type_list_room_booking_fields', $this->tplIndex);
 ?>
 
 									</div>

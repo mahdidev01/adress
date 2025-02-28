@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-02-28 10:46:15
+/* Smarty version 3.1.39, created on 2025-02-28 11:28:27
   from 'C:\laragon\www\youradress\themes\hotel-reservation-theme\global.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_67c193f78320f5_61237805',
+  'unifunc' => 'content_67c19ddb499a01_30636419',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67c193f78320f5_61237805 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67c19ddb499a01_30636419 (Smarty_Internal_Template $_smarty_tpl) {
 echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['addJsDef'][0], array( array('isMobile'=>$_smarty_tpl->tpl_vars['mobile_device']->value),$_smarty_tpl ) );
 echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['addJsDef'][0], array( array('baseDir'=>$_smarty_tpl->tpl_vars['content_dir']->value),$_smarty_tpl ) );
 echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['addJsDef'][0], array( array('baseUri'=>$_smarty_tpl->tpl_vars['base_uri']->value),$_smarty_tpl ) );

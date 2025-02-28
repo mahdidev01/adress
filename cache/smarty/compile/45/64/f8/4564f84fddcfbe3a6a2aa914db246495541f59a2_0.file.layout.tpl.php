@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-02-28 10:46:15
+/* Smarty version 3.1.39, created on 2025-02-28 11:28:27
   from 'C:\laragon\www\youradress\themes\hotel-reservation-theme\layout.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_67c193f76ebde4_56429652',
+  'unifunc' => 'content_67c19ddb38aec3_95206126',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67c193f76ebde4_56429652 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67c19ddb38aec3_95206126 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_assignInScope('left_column_size', 0);
 $_smarty_tpl->_assignInScope('right_column_size', 0);
 if ((isset($_smarty_tpl->tpl_vars['HOOK_LEFT_COLUMN']->value)) && trim($_smarty_tpl->tpl_vars['HOOK_LEFT_COLUMN']->value) && !$_smarty_tpl->tpl_vars['hide_left_column']->value) {
