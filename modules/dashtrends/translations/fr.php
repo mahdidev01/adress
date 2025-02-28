@@ -1,0 +1,31 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{dashtrends}prestashop>dashtrends_ee653ade5f520037ef95e9dc2a42364c'] = 'Tendances du tableau de bord';
+$_MODULE['<{dashtrends}prestashop>dashtrends_f2d0efa68eb71bfd5209abeb9f4b0943'] = 'Ajoute un bloc avec une représentation graphique du développement de votre/vos magasin(s) en fonction des données clés sélectionnées.';
+$_MODULE['<{dashtrends}prestashop>dashtrends_44749712dbec183e983dcd78a7736c41'] = 'Date';
+$_MODULE['<{dashtrends}prestashop>dashtrends_2d125dc25b158f28a1960bd96a9fa8d1'] = '%s points';
+$_MODULE['<{dashtrends}prestashop>dashtrends_887ee91702c962a70b87cbef07bbcaec'] = 'hors taxes';
+$_MODULE['<{dashtrends}prestashop>dashtrends_11ff9f68afb6b8b5b8eda218d7c83a65'] = 'Ventes';
+$_MODULE['<{dashtrends}prestashop>dashtrends_7442e29d7d53e549b78d93c46b8cdcfc'] = 'Ordres';
+$_MODULE['<{dashtrends}prestashop>dashtrends_ffbb5322a3702b0d8d9c7f506209c540'] = 'Valeur moyenne des commandes';
+$_MODULE['<{dashtrends}prestashop>dashtrends_d7e637a6e9ff116de2fa89551240a94d'] = 'Visites';
+$_MODULE['<{dashtrends}prestashop>dashtrends_e4c3da18c66c0147144767efeb59198f'] = 'Taux de conversion';
+$_MODULE['<{dashtrends}prestashop>dashtrends_43d729c7b81bfa5fc10e756660d877d1'] = 'Bénéfice net';
+$_MODULE['<{dashtrends}prestashop>dashtrends_46418a037045b91e6715c4da91a2a269'] = '%s (période précédente)';
+$_MODULE['<{dashtrends}prestashop>dashboard_zone_two_54358a914f51e1af19df8520159fe607'] = 'Revenu';
+$_MODULE['<{dashtrends}prestashop>dashboard_zone_two_f1206f9fadc5ce41694f69129aecac26'] = 'Configure';
+$_MODULE['<{dashtrends}prestashop>dashboard_zone_two_63a6a88c066880c5ac42394a22803ca6'] = 'Rafraîchir';
+$_MODULE['<{dashtrends}prestashop>dashboard_zone_two_9589f4ddb96d2a3ce88f65d45d1fe76d'] = 'Somme des revenus (hors taxes) générés dans la plage de dates par les commandes considérées comme validées.';
+$_MODULE['<{dashtrends}prestashop>dashboard_zone_two_11ff9f68afb6b8b5b8eda218d7c83a65'] = 'Ventes';
+$_MODULE['<{dashtrends}prestashop>dashboard_zone_two_8bc1c5ca521b99b87908db0bcd33ec76'] = 'Nombre total de commandes reçues dans la plage de dates qui sont considérées comme validées.';
+$_MODULE['<{dashtrends}prestashop>dashboard_zone_two_7442e29d7d53e549b78d93c46b8cdcfc'] = 'Ordres';
+$_MODULE['<{dashtrends}prestashop>dashboard_zone_two_ca33bc53b88b1d02da4901ca27947483'] = 'La valeur moyenne des commandes est une mesure représentant la valeur d\'une commande moyenne dans la plage de dates. Elle est calculée en divisant les ventes par les réservations. Ces données sont fournies par le module « Exploration de données pour les statistiques », assurez-vous donc qu\'il est installé et configuré.';
+$_MODULE['<{dashtrends}prestashop>dashboard_zone_two_ffbb5322a3702b0d8d9c7f506209c540'] = 'Valeur moyenne des commandes';
+$_MODULE['<{dashtrends}prestashop>dashboard_zone_two_43593aa928c1fc89dd214e7c8544dc48'] = 'Nombre total de visites au cours de la période. Une visite correspond à la période pendant laquelle un utilisateur est activement engagé sur votre site Web. Ces données sont fournies par le module « Exploration de données à des fins statistiques », assurez-vous donc qu\'il est installé et configuré.';
+$_MODULE['<{dashtrends}prestashop>dashboard_zone_two_d7e637a6e9ff116de2fa89551240a94d'] = 'Visites';
+$_MODULE['<{dashtrends}prestashop>dashboard_zone_two_6d329878dae2a2dca2a224cdc795cfba'] = 'Le taux de conversion est le pourcentage de visites ayant abouti à une réservation validée.';
+$_MODULE['<{dashtrends}prestashop>dashboard_zone_two_e4c3da18c66c0147144767efeb59198f'] = 'Taux de conversion';
+$_MODULE['<{dashtrends}prestashop>dashboard_zone_two_1740248977ab8fe1e1aeada213259404'] = 'Le bénéfice net correspond au montant d\'argent gagné après déduction de tous les coûts et dépenses d\'exploitation sur une période donnée. Vous pouvez fournir ces coûts en cliquant sur l\'icône de configuration juste au-dessus.';
+$_MODULE['<{dashtrends}prestashop>dashboard_zone_two_43d729c7b81bfa5fc10e756660d877d1'] = 'Bénéfice net';

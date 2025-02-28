@@ -1,0 +1,2 @@
+*ERROR* 	2025/02/27 - 15:58:39: Link to database cannot be established:SQLSTATE[HY000] [1045] Access denied for user 'monuser_youradress_user'@'localhost' (using password: YES) at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2025/02/27 - 15:59:46: Link to database cannot be established:SQLSTATE[HY000] [1045] Access denied for user 'monuser_youradress_user'@'localhost' (using password: YES) at line 102 in file classes/db/DbPDO.php

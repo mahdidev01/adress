@@ -1,0 +1,30 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{statscatalog}prestashop>statscatalog_5c225cafe1a483f2afeb5ac6ea2c9d87'] = 'Statistiques sur les hôtels';
+$_MODULE['<{statscatalog}prestashop>statscatalog_08a7c3cf820979d2c8d4de4f47abb5e6'] = 'Ajoute un onglet contenant des statistiques générales sur votre catalogue au tableau de bord Statistiques.';
+$_MODULE['<{statscatalog}prestashop>statscatalog_256132630ec829e4529a9d28877bba38'] = '(1 achat / %d visites)';
+$_MODULE['<{statscatalog}prestashop>statscatalog_d1e14dc5b2978eccbe559afa5bd3019f'] = 'Choisissez un hôtel';
+$_MODULE['<{statscatalog}prestashop>statscatalog_b1c94ca2fbc3e78fc30069c8d0f01680'] = 'Tous';
+$_MODULE['<{statscatalog}prestashop>statscatalog_14224ec977fd6ff05a5742aff5f14ccc'] = 'Types de chambres disponibles';
+$_MODULE['<{statscatalog}prestashop>statscatalog_7fa194e8c3170a800cffc1455a946649'] = 'Prix ​​de base moyen';
+$_MODULE['<{statscatalog}prestashop>statscatalog_f96287b9a19512d66f0d7580c4b0f94c'] = 'Pages vues de l\'hôtel';
+$_MODULE['<{statscatalog}prestashop>statscatalog_5728dab3ab74a0367911fbedbed89c89'] = 'Pages vues du type de chambre';
+$_MODULE['<{statscatalog}prestashop>statscatalog_196352626162f7eeea61c2b04722deda'] = 'Nuitées réservées';
+$_MODULE['<{statscatalog}prestashop>statscatalog_b4d9bb0cecc4d8baa569ca5300fa9ce8'] = 'Nombre moyen de visites de pages';
+$_MODULE['<{statscatalog}prestashop>statscatalog_af5c68d0fdf5cd644a9b3f78c12bd359'] = 'Nombre moyen de réservations';
+$_MODULE['<{statscatalog}prestashop>statscatalog_4d476ce7d490f2150b52991c2d77d55c'] = 'Images disponibles';
+$_MODULE['<{statscatalog}prestashop>statscatalog_9bf3ed6ae2ea751a95abbb53fff68629'] = 'Types de chambres jamais consultées';
+$_MODULE['<{statscatalog}prestashop>statscatalog_91e3d25172c6bcb54eeba6a853842477'] = 'Types de chambres jamais achetés';
+$_MODULE['<{statscatalog}prestashop>statscatalog_8002e7e4cdbdedeb128276c1d1dc6196'] = 'Taux de conversion*';
+$_MODULE['<{statscatalog}prestashop>statscatalog_cfeeb5f56e4a5d09864fb8f223721d09'] = 'Définit le taux de conversion moyen pour la page du type de chambre. Il est possible de réserver un type de chambre sans consulter la page du type de chambre, ce taux peut donc être supérieur à 1.';
+$_MODULE['<{statscatalog}prestashop>statscatalog_6fbacda008628fae693794ef11dd031f'] = 'Note:';
+$_MODULE['<{statscatalog}prestashop>statscatalog_1e35e3a20797f4c5745572a6fefa8c9c'] = 'Vous devez activer l\'option «&nbsp;Enregistrer les vues de page globales&nbsp;» à partir de';
+$_MODULE['<{statscatalog}prestashop>statscatalog_20fd30b33f022ed31919ef6f74a92ecb'] = 'module pour des données précises, ou utilisez le module QloApps Google Analytics.';
+$_MODULE['<{statscatalog}prestashop>statscatalog_8f1760f93b50cfc775ebe98f8452e8e9'] = 'Types de chambres jamais réservées';
+$_MODULE['<{statscatalog}prestashop>statscatalog_b718adec73e04ce3ec720dd11a06a308'] = 'IDENTIFIANT';
+$_MODULE['<{statscatalog}prestashop>statscatalog_49ee3087348e8d44e1feda1917443987'] = 'Nom';
+$_MODULE['<{statscatalog}prestashop>statscatalog_66225d35132651f21fee25d611d970bc'] = 'Modifier / Aperçu';
+$_MODULE['<{statscatalog}prestashop>statscatalog_7dce122004969d56ae2e0245cb754d35'] = 'Modifier';
+$_MODULE['<{statscatalog}prestashop>statscatalog_31fde7b05ac8952dacf4af8a704074ec'] = 'Aperçu';
