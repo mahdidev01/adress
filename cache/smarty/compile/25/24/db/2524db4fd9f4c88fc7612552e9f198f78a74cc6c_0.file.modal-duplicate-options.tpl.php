@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-02-28 11:30:50
+/* Smarty version 3.1.39, created on 2025-02-28 12:30:40
   from 'C:\laragon\www\youradress\admin312yrca9v\themes\default\template\controllers\products\modal-duplicate-options.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_67c19e6a4f39c2_93838934',
+  'unifunc' => 'content_67c1ac702409b8_96815819',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67c19e6a4f39c2_93838934 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67c1ac702409b8_96815819 (Smarty_Internal_Template $_smarty_tpl) {
 if ((isset($_smarty_tpl->tpl_vars['hotels_info']->value))) {?>
     <div class="modal-body text-center">
         <div class="row">

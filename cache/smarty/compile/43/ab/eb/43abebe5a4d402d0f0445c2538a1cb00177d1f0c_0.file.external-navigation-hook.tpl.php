@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-02-28 11:28:26
+/* Smarty version 3.1.39, created on 2025-02-28 12:29:21
   from 'C:\laragon\www\youradress\modules\hotelreservationsystem\views\templates\hook\external-navigation-hook.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_67c19ddaf399e7_90159944',
+  'unifunc' => 'content_67c1ac21d21cb4_82899079',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67c19ddaf399e7_90159944 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67c1ac21d21cb4_82899079 (Smarty_Internal_Template $_smarty_tpl) {
 if (($_smarty_tpl->tpl_vars['email']->value != '') || ($_smarty_tpl->tpl_vars['phone']->value != '')) {?>
     <ul class="nav nav-pills nav-stacked visible-xs wk-nav-style">
         <?php if ($_smarty_tpl->tpl_vars['email']->value != '') {?>

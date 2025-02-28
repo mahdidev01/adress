@@ -57,11 +57,11 @@
                                                         <p class="htlRoomTypeNameText pull-left">{$roomDisplay.name|escape:'htmlall':'UTF-8'}</p>
                                                         {if $roomDisplay.show_price && !isset($restricted_country_mode) && !$PS_CATALOG_MODE}
                                                             <p class="htlRoomTypePriceText pull-right">
-                                                                {if $roomDisplay.feature_price_diff >= 0}
+                                                                {* {if $roomDisplay.feature_price_diff >= 0}
                                                                     <span class="wk_roomType_price {if $roomDisplay.feature_price_diff>0}room_type_old_price{/if}">{convertPrice price = $roomDisplay.price_without_reduction}</span>
-                                                                {/if}
+                                                                {/if} *}
                                                                 {if $roomDisplay.feature_price_diff}
-                                                                    <span class="wk_roomType_price">{convertPrice price = $roomDisplay.feature_price}</span>
+                                                                    <span class="wk_roomType_price">{convertPrice price = $roomDisplay.price_without_reduction}</span>
                                                                 {/if}
                                                                 <span class="wk_roomType_price_type">
                                                                     /&nbsp;{l s='Per Night' mod='wkhotelroom'}
