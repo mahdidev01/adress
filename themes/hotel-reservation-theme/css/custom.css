@@ -271,12 +271,37 @@
       font-size: 45px;
     }
   }
-  @media (max-width: 768px) {
+  /* @media (max-width: 768px) {
     .header-desc-inner-wrapper {
       margin-top: 300px;
   }
-  }
+  } */
   
   .header-top {
     background-color: #01171ac2;
   }
+/* ==================================== */
+
+  .header-rmsearch {
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    width: 100% !important;
+    height: 150px !important;
+}
+@media (max-width: 768px) {
+.header-rmsearch {
+  width: 85% !important;
+  height: 230px !important;
+  }
+}
+@media (min-width: 768px) {
+.header-rmsearch {
+  background-image: url("/youradress/modules/wkroomsearchblock/views/img/black-opacity-5.png");
+  }
+}
+@media (max-width: 768px) {
+.fancy_search_header_xs {
+  display: none !important;
+  }
+}

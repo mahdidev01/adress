@@ -54,7 +54,7 @@
 				<div class="row">
 						<div class="col-md-4 col-sm-6 col-xs-12 text-center amenity-item">
 							<div class="amenity_img_primary">
-								<img src="/modules/wkhotelfeaturesblock/views/img/hotels_features_img/equipe1.jpg" 
+								<img src="/youradress/modules/wkhotelfeaturesblock/views/img/hotels_features_img/equipe1.jpg" 
 									alt="Nettoyage Professionnel"
 									class="img-responsive amenity-image"/>
 							</div>
@@ -65,7 +65,7 @@
 						</div>
 						<div class="col-md-4 col-sm-6 col-xs-12 text-center amenity-item">
 							<div class="amenity_img_primary">
-								<img src="/modules/wkhotelfeaturesblock/views/img/hotels_features_img/equipe2.jpg" 
+								<img src="/youradress/modules/wkhotelfeaturesblock/views/img/hotels_features_img/equipe2.jpg" 
 									alt="WiFi à Fibre Optique"
 									class="img-responsive amenity-image"/>
 							</div>
@@ -76,7 +76,7 @@
 						</div>
 						<div class="col-md-4 col-sm-6 col-xs-12 text-center amenity-item">
 							<div class="amenity_img_primary">
-								<img src="/modules/wkhotelfeaturesblock/views/img/hotels_features_img/equipe3.jpg" 
+								<img src="/youradress/modules/wkhotelfeaturesblock/views/img/hotels_features_img/equipe3.jpg" 
 									alt="Cuisine équipée"
 									class="img-responsive amenity-image"/>
 							</div>
@@ -87,7 +87,7 @@
 						</div>
 						<div class="col-md-4 col-sm-6 col-xs-12 text-center amenity-item">
 							<div class="amenity_img_primary">
-								<img src="/modules/wkhotelfeaturesblock/views/img/hotels_features_img/equipe4.png" 
+								<img src="/youradress/modules/wkhotelfeaturesblock/views/img/hotels_features_img/equipe4.png" 
 									alt="Produits de douche"
 									class="img-responsive amenity-image"/>
 							</div>
@@ -98,7 +98,7 @@
 						</div>
 						<div class="col-md-4 col-sm-6 col-xs-12 text-center amenity-item">
 							<div class="amenity_img_primary">
-								<img src="/modules/wkhotelfeaturesblock/views/img/hotels_features_img/equipe5.webp" 
+								<img src="/youradress/modules/wkhotelfeaturesblock/views/img/hotels_features_img/equipe5.webp" 
 									alt="This is a title"
 									class="img-responsive amenity-image"/>
 							</div>
@@ -111,7 +111,7 @@
 				<div class="row">
 						<div class="col-md-4 col-sm-6 col-xs-12 text-center amenity-item">
 							<div class="amenity_img_primary">
-								<img src="/modules/wkhotelfeaturesblock/views/img/hotels_features_img/equipe6.jpg" 
+								<img src="/youradress/modules/wkhotelfeaturesblock/views/img/hotels_features_img/equipe6.jpg" 
 									alt="This is a title"
 									class="img-responsive amenity-image"/>
 							</div>
@@ -122,7 +122,7 @@
 						</div>
 						<div class="col-md-4 col-sm-6 col-xs-12 text-center amenity-item">
 							<div class="amenity_img_primary">
-								<img src="/modules/wkhotelfeaturesblock/views/img/hotels_features_img/equipe7.jpg" 
+								<img src="/youradress/modules/wkhotelfeaturesblock/views/img/hotels_features_img/equipe7.jpg" 
 									alt="Machine à laver"
 									class="img-responsive amenity-image"/>
 							</div>
@@ -133,7 +133,7 @@
 						</div>
 						<div class="col-md-4 col-sm-6 col-xs-12 text-center amenity-item">
 							<div class="amenity_img_primary">
-								<img src="/modules/wkhotelfeaturesblock/views/img/hotels_features_img/equipe8.jpg" 
+								<img src="/youradress/modules/wkhotelfeaturesblock/views/img/hotels_features_img/equipe8.jpg" 
 									alt="Machine à café"
 									class="img-responsive amenity-image"/>
 							</div>
@@ -144,7 +144,7 @@
 						</div>
 						<div class="col-md-4 col-sm-6 col-xs-12 text-center amenity-item">
 							<div class="amenity_img_primary">
-								<img src="/modules/wkhotelfeaturesblock/views/img/hotels_features_img/equipe9.jpg" 
+								<img src="/youradress/modules/wkhotelfeaturesblock/views/img/hotels_features_img/equipe9.jpg" 
 									alt="Serviettes de bain"
 									class="img-responsive amenity-image"/>
 							</div>
@@ -155,7 +155,7 @@
 						</div>
 						<div class="col-md-4 col-sm-6 col-xs-12 text-center amenity-item">
 							<div class="amenity_img_primary">
-								<img src="/modules/wkhotelfeaturesblock/views/img/hotels_features_img/equipe10.jpg" 
+								<img src="/youradress/modules/wkhotelfeaturesblock/views/img/hotels_features_img/equipe10.jpg" 
 									alt="Conceirgeirie disponible 24/7"
 									class="img-responsive amenity-image"/>
 							</div>

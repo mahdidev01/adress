@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-02-27 17:25:05
+/* Smarty version 3.1.39, created on 2025-02-28 10:46:15
   from 'C:\laragon\www\youradress\modules\wkfooteraboutblock\views\templates\hook\wkFooterAboutBlock.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_67c09ff1d2fec0_96126020',
+  'unifunc' => 'content_67c193f75f5597_12909303',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67c09ff1d2fec0_96126020 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67c193f75f5597_12909303 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="row">
 	<section class="col-xs-12 col-sm-12">

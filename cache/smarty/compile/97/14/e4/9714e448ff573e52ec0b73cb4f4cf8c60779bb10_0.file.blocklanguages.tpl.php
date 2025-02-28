@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-02-27 17:25:05
+/* Smarty version 3.1.39, created on 2025-02-28 10:46:15
   from 'C:\laragon\www\youradress\modules\blocklanguages\views\templates\hook\blocklanguages.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_67c09ff1eb9b90_85015850',
+  'unifunc' => 'content_67c193f7744f17_29552809',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,23 +20,23 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67c09ff1eb9b90_85015850 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67c193f7744f17_29552809 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_42483459067c09ff1eb28f5_81110825', 'block_languages');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_43265870867c193f773dad2_68392984', 'block_languages');
 ?>
 
 <?php }
 /* {block 'block_languages'} */
-class Block_42483459067c09ff1eb28f5_81110825 extends Smarty_Internal_Block
+class Block_43265870867c193f773dad2_68392984 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'block_languages' => 
   array (
-    0 => 'Block_42483459067c09ff1eb28f5_81110825',
+    0 => 'Block_43265870867c193f773dad2_68392984',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

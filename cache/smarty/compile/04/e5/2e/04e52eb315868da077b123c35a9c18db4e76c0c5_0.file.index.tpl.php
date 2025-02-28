@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-02-27 17:48:19
+/* Smarty version 3.1.39, created on 2025-02-28 10:46:15
   from 'C:\laragon\www\youradress\themes\hotel-reservation-theme\index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_67c0a563b15909_68236741',
+  'unifunc' => 'content_67c193f76c7704_16933937',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '04e52eb315868da077b123c35a9c18db4e76c0c5' => 
     array (
       0 => 'C:\\laragon\\www\\youradress\\themes\\hotel-reservation-theme\\index.tpl',
-      1 => 1740153956,
+      1 => 1740734487,
       2 => 'file',
     ),
   ),
@@ -20,17 +20,17 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67c0a563b15909_68236741 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67c193f76c7704_16933937 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_89200301067c0a563b09554_40031539', 'displayHomeTabContent');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_196518729067c193f76bc5d2_93487566', 'displayHomeTabContent');
 ?>
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_143490290267c0a563b0cca3_63481460', 'displayHome');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_193174292267c193f76bf358_19806593', 'displayHome');
 ?>
 
 <div id="hotelEquipmentBlock" class="row home_block_container">
@@ -41,13 +41,13 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_143490290267c0a563
 				<hr class="home_block_desc_line"/>
 			</div>
 				<?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_82058056267c0a563b0deb4_99823804', 'hotel_features_images');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_194014865667c193f76c04a3_43956218', 'hotel_features_images');
 ?>
 
 	</div>
 </div>
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_159412570267c0a563b14072_47895678', 'displayBlogBlock');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_205006622067c193f76c5f94_85948543', 'displayBlogBlock');
 ?>
 
 
@@ -55,7 +55,7 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_159412570267c0a563
 
 <?php }
 /* {block 'displayHomeTab'} */
-class Block_41448083467c0a563b0b336_35530838 extends Smarty_Internal_Block
+class Block_8342153867c193f76bdbf0_53348623 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -71,16 +71,16 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'displayHomeTab'} */
 /* {block 'displayHomeTabContent'} */
-class Block_89200301067c0a563b09554_40031539 extends Smarty_Internal_Block
+class Block_196518729067c193f76bc5d2_93487566 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'displayHomeTabContent' => 
   array (
-    0 => 'Block_89200301067c0a563b09554_40031539',
+    0 => 'Block_196518729067c193f76bc5d2_93487566',
   ),
   'displayHomeTab' => 
   array (
-    0 => 'Block_41448083467c0a563b0b336_35530838',
+    0 => 'Block_8342153867c193f76bdbf0_53348623',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -88,7 +88,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 
 	<?php if ((isset($_smarty_tpl->tpl_vars['HOOK_HOME_TAB_CONTENT']->value)) && trim($_smarty_tpl->tpl_vars['HOOK_HOME_TAB_CONTENT']->value)) {?>
 		<?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_41448083467c0a563b0b336_35530838', 'displayHomeTab', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_8342153867c193f76bdbf0_53348623', 'displayHomeTab', $this->tplIndex);
 ?>
 
 		<div class="tab-content"><?php echo $_smarty_tpl->tpl_vars['HOOK_HOME_TAB_CONTENT']->value;?>
@@ -98,12 +98,12 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_41448083467c0a563b
 }
 /* {/block 'displayHomeTabContent'} */
 /* {block 'displayHome'} */
-class Block_143490290267c0a563b0cca3_63481460 extends Smarty_Internal_Block
+class Block_193174292267c193f76bf358_19806593 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'displayHome' => 
   array (
-    0 => 'Block_143490290267c0a563b0cca3_63481460',
+    0 => 'Block_193174292267c193f76bf358_19806593',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -117,12 +117,12 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'displayHome'} */
 /* {block 'hotel_features_images'} */
-class Block_82058056267c0a563b0deb4_99823804 extends Smarty_Internal_Block
+class Block_194014865667c193f76c04a3_43956218 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'hotel_features_images' => 
   array (
-    0 => 'Block_82058056267c0a563b0deb4_99823804',
+    0 => 'Block_194014865667c193f76c04a3_43956218',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -132,7 +132,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 				<div class="row">
 						<div class="col-md-4 col-sm-6 col-xs-12 text-center amenity-item">
 							<div class="amenity_img_primary">
-								<img src="/modules/wkhotelfeaturesblock/views/img/hotels_features_img/equipe1.jpg" 
+								<img src="/youradress/modules/wkhotelfeaturesblock/views/img/hotels_features_img/equipe1.jpg" 
 									alt="Nettoyage Professionnel"
 									class="img-responsive amenity-image"/>
 							</div>
@@ -144,7 +144,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 						</div>
 						<div class="col-md-4 col-sm-6 col-xs-12 text-center amenity-item">
 							<div class="amenity_img_primary">
-								<img src="/modules/wkhotelfeaturesblock/views/img/hotels_features_img/equipe2.jpg" 
+								<img src="/youradress/modules/wkhotelfeaturesblock/views/img/hotels_features_img/equipe2.jpg" 
 									alt="WiFi à Fibre Optique"
 									class="img-responsive amenity-image"/>
 							</div>
@@ -156,7 +156,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 						</div>
 						<div class="col-md-4 col-sm-6 col-xs-12 text-center amenity-item">
 							<div class="amenity_img_primary">
-								<img src="/modules/wkhotelfeaturesblock/views/img/hotels_features_img/equipe3.jpg" 
+								<img src="/youradress/modules/wkhotelfeaturesblock/views/img/hotels_features_img/equipe3.jpg" 
 									alt="Cuisine équipée"
 									class="img-responsive amenity-image"/>
 							</div>
@@ -168,7 +168,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 						</div>
 						<div class="col-md-4 col-sm-6 col-xs-12 text-center amenity-item">
 							<div class="amenity_img_primary">
-								<img src="/modules/wkhotelfeaturesblock/views/img/hotels_features_img/equipe4.png" 
+								<img src="/youradress/modules/wkhotelfeaturesblock/views/img/hotels_features_img/equipe4.png" 
 									alt="Produits de douche"
 									class="img-responsive amenity-image"/>
 							</div>
@@ -180,7 +180,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 						</div>
 						<div class="col-md-4 col-sm-6 col-xs-12 text-center amenity-item">
 							<div class="amenity_img_primary">
-								<img src="/modules/wkhotelfeaturesblock/views/img/hotels_features_img/equipe5.webp" 
+								<img src="/youradress/modules/wkhotelfeaturesblock/views/img/hotels_features_img/equipe5.webp" 
 									alt="This is a title"
 									class="img-responsive amenity-image"/>
 							</div>
@@ -194,7 +194,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 				<div class="row">
 						<div class="col-md-4 col-sm-6 col-xs-12 text-center amenity-item">
 							<div class="amenity_img_primary">
-								<img src="/modules/wkhotelfeaturesblock/views/img/hotels_features_img/equipe6.jpg" 
+								<img src="/youradress/modules/wkhotelfeaturesblock/views/img/hotels_features_img/equipe6.jpg" 
 									alt="This is a title"
 									class="img-responsive amenity-image"/>
 							</div>
@@ -206,7 +206,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 						</div>
 						<div class="col-md-4 col-sm-6 col-xs-12 text-center amenity-item">
 							<div class="amenity_img_primary">
-								<img src="/modules/wkhotelfeaturesblock/views/img/hotels_features_img/equipe7.jpg" 
+								<img src="/youradress/modules/wkhotelfeaturesblock/views/img/hotels_features_img/equipe7.jpg" 
 									alt="Machine à laver"
 									class="img-responsive amenity-image"/>
 							</div>
@@ -218,7 +218,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 						</div>
 						<div class="col-md-4 col-sm-6 col-xs-12 text-center amenity-item">
 							<div class="amenity_img_primary">
-								<img src="/modules/wkhotelfeaturesblock/views/img/hotels_features_img/equipe8.jpg" 
+								<img src="/youradress/modules/wkhotelfeaturesblock/views/img/hotels_features_img/equipe8.jpg" 
 									alt="Machine à café"
 									class="img-responsive amenity-image"/>
 							</div>
@@ -230,7 +230,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 						</div>
 						<div class="col-md-4 col-sm-6 col-xs-12 text-center amenity-item">
 							<div class="amenity_img_primary">
-								<img src="/modules/wkhotelfeaturesblock/views/img/hotels_features_img/equipe9.jpg" 
+								<img src="/youradress/modules/wkhotelfeaturesblock/views/img/hotels_features_img/equipe9.jpg" 
 									alt="Serviettes de bain"
 									class="img-responsive amenity-image"/>
 							</div>
@@ -242,7 +242,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 						</div>
 						<div class="col-md-4 col-sm-6 col-xs-12 text-center amenity-item">
 							<div class="amenity_img_primary">
-								<img src="/modules/wkhotelfeaturesblock/views/img/hotels_features_img/equipe10.jpg" 
+								<img src="/youradress/modules/wkhotelfeaturesblock/views/img/hotels_features_img/equipe10.jpg" 
 									alt="Conceirgeirie disponible 24/7"
 									class="img-responsive amenity-image"/>
 							</div>
@@ -259,12 +259,12 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'hotel_features_images'} */
 /* {block 'displayBlogBlock'} */
-class Block_159412570267c0a563b14072_47895678 extends Smarty_Internal_Block
+class Block_205006622067c193f76c5f94_85948543 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'displayBlogBlock' => 
   array (
-    0 => 'Block_159412570267c0a563b14072_47895678',
+    0 => 'Block_205006622067c193f76c5f94_85948543',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

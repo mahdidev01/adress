@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-02-27 17:48:19
+/* Smarty version 3.1.39, created on 2025-02-28 10:46:15
   from 'C:\laragon\www\youradress\modules\wkabouthotelblock\views\templates\hook\hotelInteriorBlock.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_67c0a563927007_41899794',
+  'unifunc' => 'content_67c193f740c8d5_92368544',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,18 +20,18 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67c0a563927007_41899794 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67c193f740c8d5_92368544 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_161447543267c0a5638fc376_32900811', 'hotel_interior_block');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_199721499367c193f73fd461_72396641', 'hotel_interior_block');
 ?>
 
 <?php }
 /* {block 'hotel_interior_block_heading'} */
-class Block_141422540467c0a5639016a4_18298035 extends Smarty_Internal_Block
+class Block_42839435267c193f73fe462_05110653 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -43,7 +43,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'hotel_interior_block_heading'} */
 /* {block 'hotel_interior_block_description'} */
-class Block_115757325067c0a563909e13_66969459 extends Smarty_Internal_Block
+class Block_142911138567c193f73ff343_34682146 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -55,7 +55,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'hotel_interior_block_description'} */
 /* {block 'displayInteriorExtraContent'} */
-class Block_177599831867c0a56390abb0_44485729 extends Smarty_Internal_Block
+class Block_36252462367c193f73fffd9_66387367 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -67,7 +67,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'displayInteriorExtraContent'} */
 /* {block 'hotel_interior_images'} */
-class Block_32553950967c0a56390eeb4_80919976 extends Smarty_Internal_Block
+class Block_78634129267c193f7400b95_36112367 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -137,28 +137,28 @@ $_smarty_tpl->tpl_vars['foo']->first = $_smarty_tpl->tpl_vars['foo']->iteration 
 }
 /* {/block 'hotel_interior_images'} */
 /* {block 'hotel_interior_block'} */
-class Block_161447543267c0a5638fc376_32900811 extends Smarty_Internal_Block
+class Block_199721499367c193f73fd461_72396641 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'hotel_interior_block' => 
   array (
-    0 => 'Block_161447543267c0a5638fc376_32900811',
+    0 => 'Block_199721499367c193f73fd461_72396641',
   ),
   'hotel_interior_block_heading' => 
   array (
-    0 => 'Block_141422540467c0a5639016a4_18298035',
+    0 => 'Block_42839435267c193f73fe462_05110653',
   ),
   'hotel_interior_block_description' => 
   array (
-    0 => 'Block_115757325067c0a563909e13_66969459',
+    0 => 'Block_142911138567c193f73ff343_34682146',
   ),
   'displayInteriorExtraContent' => 
   array (
-    0 => 'Block_177599831867c0a56390abb0_44485729',
+    0 => 'Block_36252462367c193f73fffd9_66387367',
   ),
   'hotel_interior_images' => 
   array (
-    0 => 'Block_32553950967c0a56390eeb4_80919976',
+    0 => 'Block_78634129267c193f7400b95_36112367',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -171,15 +171,15 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
                     <div class="row home_block_desc_wrapper">
                         <div class="col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
                             <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_141422540467c0a5639016a4_18298035', 'hotel_interior_block_heading', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_42839435267c193f73fe462_05110653', 'hotel_interior_block_heading', $this->tplIndex);
 ?>
 
                             <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_115757325067c0a563909e13_66969459', 'hotel_interior_block_description', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_142911138567c193f73ff343_34682146', 'hotel_interior_block_description', $this->tplIndex);
 ?>
 
                             <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_177599831867c0a56390abb0_44485729', 'displayInteriorExtraContent', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_36252462367c193f73fffd9_66387367', 'displayInteriorExtraContent', $this->tplIndex);
 ?>
 
                             <hr class="home_block_desc_line"/>
@@ -187,7 +187,7 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_177599831867c0a563
                     </div>
                 <?php }?>
                 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_32553950967c0a56390eeb4_80919976', 'hotel_interior_images', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_78634129267c193f7400b95_36112367', 'hotel_interior_images', $this->tplIndex);
 ?>
 
             </div>

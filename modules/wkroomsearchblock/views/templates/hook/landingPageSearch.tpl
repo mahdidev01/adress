@@ -19,7 +19,7 @@
 
 {block name='landing_page_search_panel'}
     {if isset($is_index_page) && $is_index_page}
-        <div class="header-rmsearch-container header-rmsearch-hide-xs hidden-xs">
+        <div class="header-rmsearch-container header-rmsearch">
             {if isset($hotels_info) && count($hotels_info)}
                 <div class="header-rmsearch-wrapper" id="xs_room_search_form">
                     <div class="header-rmsearch-primary">
