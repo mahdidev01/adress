@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-03-03 13:16:33
+/* Smarty version 3.1.39, created on 2025-03-03 13:22:12
   from 'C:\laragon\www\youradress\themes\hotel-reservation-theme\contact-form.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_67c5abb14edc92_08468529',
+  'unifunc' => 'content_67c5ad040e36a3_72301123',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '0120e991cc9fae020ff35270a4538a83be9560a4' => 
     array (
       0 => 'C:\\laragon\\www\\youradress\\themes\\hotel-reservation-theme\\contact-form.tpl',
-      1 => 1741007786,
+      1 => 1741007995,
       2 => 'file',
     ),
   ),
@@ -20,16 +20,16 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67c5abb14edc92_08468529 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67c5ad040e36a3_72301123 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_73932901267c5abb14e7cc7_37894445', 'contact_form');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_201480128367c5ad040daae0_41512363', 'contact_form');
 }
 /* {block 'errors'} */
-class Block_123761950467c5abb14e8f18_06797302 extends Smarty_Internal_Block
+class Block_184703014067c5ad040dc649_09908130 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -41,16 +41,16 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'errors'} */
 /* {block 'contact_form'} */
-class Block_73932901267c5abb14e7cc7_37894445 extends Smarty_Internal_Block
+class Block_201480128367c5ad040daae0_41512363 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'contact_form' => 
   array (
-    0 => 'Block_73932901267c5abb14e7cc7_37894445',
+    0 => 'Block_201480128367c5ad040daae0_41512363',
   ),
   'errors' => 
   array (
-    0 => 'Block_123761950467c5abb14e8f18_06797302',
+    0 => 'Block_184703014067c5ad040dc649_09908130',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -61,7 +61,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 </p>
 	<?php }?>
 	<?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_123761950467c5abb14e8f18_06797302', 'errors', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_184703014067c5ad040dc649_09908130', 'errors', $this->tplIndex);
 ?>
 
 	<link rel="stylesheet"

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-03-03 13:16:33
+/* Smarty version 3.1.39, created on 2025-03-03 13:22:11
   from 'C:\laragon\www\youradress\themes\hotel-reservation-theme\modules\blockuserinfo\nav.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_67c5abb13dc4e2_84723487',
+  'unifunc' => 'content_67c5ad03f1c418_24757201',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,18 +20,18 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67c5abb13dc4e2_84723487 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67c5ad03f1c418_24757201 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_133668237967c5abb13d2ee6_21688661', 'user_navigation');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_8945561767c5ad03f130a2_68204921', 'user_navigation');
 ?>
 
 <?php }
 /* {block 'displayUserNavigationList'} */
-class Block_201830620867c5abb13d94c9_61105888 extends Smarty_Internal_Block
+class Block_156740759867c5ad03f18631_27694175 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -43,16 +43,16 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'displayUserNavigationList'} */
 /* {block 'user_navigation'} */
-class Block_133668237967c5abb13d2ee6_21688661 extends Smarty_Internal_Block
+class Block_8945561767c5ad03f130a2_68204921 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'user_navigation' => 
   array (
-    0 => 'Block_133668237967c5abb13d2ee6_21688661',
+    0 => 'Block_8945561767c5ad03f130a2_68204921',
   ),
   'displayUserNavigationList' => 
   array (
-    0 => 'Block_201830620867c5abb13d94c9_61105888',
+    0 => 'Block_156740759867c5ad03f18631_27694175',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -84,7 +84,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 "><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Logout'),$_smarty_tpl ) );?>
 </a></li>
                         <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_201830620867c5abb13d94c9_61105888', 'displayUserNavigationList', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_156740759867c5ad03f18631_27694175', 'displayUserNavigationList', $this->tplIndex);
 ?>
 
                     </ul>

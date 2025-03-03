@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-03-03 13:16:33
+/* Smarty version 3.1.39, created on 2025-03-03 13:22:11
   from 'C:\laragon\www\youradress\modules\blocknavigationmenu\views\templates\hook\navigationMenuBlock.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_67c5abb1286171_33025193',
+  'unifunc' => 'content_67c5ad03dcac67_45726812',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,18 +20,18 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67c5abb1286171_33025193 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67c5ad03dcac67_45726812 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_39642611267c5abb1280961_51542462', 'navigation_menu');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_169938076967c5ad03dc53d2_00563698', 'navigation_menu');
 ?>
 
 <?php }
 /* {block 'displayExternalNavigationHook'} */
-class Block_178753252967c5abb1281d93_61378273 extends Smarty_Internal_Block
+class Block_129951546267c5ad03dc6930_60113723 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -43,16 +43,16 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'displayExternalNavigationHook'} */
 /* {block 'navigation_menu'} */
-class Block_39642611267c5abb1280961_51542462 extends Smarty_Internal_Block
+class Block_169938076967c5ad03dc53d2_00563698 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'navigation_menu' => 
   array (
-    0 => 'Block_39642611267c5abb1280961_51542462',
+    0 => 'Block_169938076967c5ad03dc53d2_00563698',
   ),
   'displayExternalNavigationHook' => 
   array (
-    0 => 'Block_178753252967c5abb1281d93_61378273',
+    0 => 'Block_129951546267c5ad03dc6930_60113723',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -88,7 +88,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 						</li>
 											</ul>
 					<?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_178753252967c5abb1281d93_61378273', 'displayExternalNavigationHook', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_129951546267c5ad03dc6930_60113723', 'displayExternalNavigationHook', $this->tplIndex);
 ?>
 
 				</div>

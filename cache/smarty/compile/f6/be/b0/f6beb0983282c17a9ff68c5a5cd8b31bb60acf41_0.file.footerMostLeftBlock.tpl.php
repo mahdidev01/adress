@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-03-03 13:16:33
+/* Smarty version 3.1.39, created on 2025-03-03 13:22:11
   from 'C:\laragon\www\youradress\modules\wkfooterlangcurrencyblock\views\templates\hook\footerMostLeftBlock.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_67c5abb13f8827_42157236',
+  'unifunc' => 'content_67c5ad03f39ec4_97111275',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67c5abb13f8827_42157236 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67c5ad03f39ec4_97111275 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="col-sm-3">
 	<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0], array( array('h'=>"displayFooterMostLeftBlock"),$_smarty_tpl ) );?>
