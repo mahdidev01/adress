@@ -61,4 +61,4 @@ $_MODULE['<{wkroomsearchblock}prestashop>searchform_301daa1cc881bbe0d0dbbf4dbe44
 $_MODULE['<{wkroomsearchblock}prestashop>searchform_c4e13ba7a66c1c004d8bbe9fef3acc6a'] = 'Chambre - 1';
 $_MODULE['<{wkroomsearchblock}prestashop>searchform_96cf4454dc3ef5d9fdb449d7abd5fa8f'] = 'Ajouter une chambre';
 $_MODULE['<{wkroomsearchblock}prestashop>searchform_f92965e2c8a7afb3c1b9a5c09a263636'] = 'Fait';
-$_MODULE['<{wkroomsearchblock}prestashop>searchform_9ba604d9592d950d600241e21916db07'] = 'Rechercher des chambres';
+$_MODULE['<{wkroomsearchblock}prestashop>searchform_9ba604d9592d950d600241e21916db07'] = 'Rechercher';

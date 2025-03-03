@@ -1,4 +1,10 @@
 <?php return array (
+  'AboutUsController' => 
+  array (
+    'path' => 'controllers/front/AboutUsController.php',
+    'type' => 'class',
+    'override' => false,
+  ),
   'AbstractCheckoutStep' => 
   array (
     'path' => '',

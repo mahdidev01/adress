@@ -125,8 +125,8 @@
 												<li><a class="navigation-link" href="/qloapps/#hotelRoomsBlock">Où Sortir</a></li>
 												<li><a class="navigation-link" href="/qloapps/#hotelTestimonialBlock">Transfére Aéroport/Gare</a></li> *}
 												<li><a class="navigation-link" href="#">Conseils de Voyage</a></li>
-												<li><a class="navigation-link" href="/content/4-propos-de-nous">À propos</a></li>
-												<li><a class="navigation-link" href="#">Contact</a></li>
+												<li><a class="navigation-link" href="/youradress/fr/a-propos">À propos</a></li>
+												<li><a class="navigation-link" href="/youradress/fr/nous-contacter">Contact</a></li>
 											</ul>
 										</div>
 									</div>
