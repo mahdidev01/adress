@@ -223,8 +223,8 @@
                                             {/foreach}
                                         {else}
                                             <div class="occupancy-room-block">
-                                                <div class="occupancy_info_head"><span
-                                                        class="room_num_wrapper">{l s='Room - 1' mod='wkroomsearchblock'}</span></div>
+                                                {*<div class="occupancy_info_head"><span
+                                                        class="room_num_wrapper">{l s='Room - 1' mod='wkroomsearchblock'}</span></div>*}
                                                 <div class="occupancy_info_block" occ_block_index="0">
                                                     <div class="row">
                                                         <div class="form-group occupancy_count_block col-sm-5 col-xs-6">
@@ -274,9 +274,9 @@
                                                                     </a>
                                                                 </div>
                                                             </div>
-                                                            <p class="label-desc-txt">({l s='Below' mod='wkroomsearchblock'}
+                                                            {* <p class="label-desc-txt">({l s='Below' mod='wkroomsearchblock'}
                                                                 {$max_child_age|escape:'htmlall':'UTF-8'}
-                                                                {l s='years' mod='wkroomsearchblock'})</p>
+                                                                {l s='years' mod='wkroomsearchblock'})</p> *}
                                                         </div>
                                                     </div>
                                                     <p style="display:none;"><span class="text-danger occupancy-input-errors"></span></p>

@@ -121,6 +121,10 @@
 				zoom: 12
 			});
 
+			// Désactiver le zoom avec un seul doigt
+			map.scrollZoom.disable();
+			map.touchZoomRotate.enable({ cooperative: true });
+
 			// Liste des appartements (remplace avec tes données)
 			const apartments = [
 				{ name: "Studio Confort", lng: -7.62, lat: 33.57, price: "500MAD/Nuit" },

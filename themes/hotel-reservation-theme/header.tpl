@@ -150,7 +150,7 @@
 				</header>
 			</div>
 			<div class="columns-container">
-				<div id="columns" class="container {if $page_name == 'category'}search-page{/if}">
+				<div id="columns" class="container {if $page_name == 'category' || $page_name == 'about-us' || $page_name == 'contact'}search-page{/if}">
 					{if $show_breadcrump}
 						{block name='breadcrumb'}
 							{include file="$tpl_dir./breadcrumb.tpl"}

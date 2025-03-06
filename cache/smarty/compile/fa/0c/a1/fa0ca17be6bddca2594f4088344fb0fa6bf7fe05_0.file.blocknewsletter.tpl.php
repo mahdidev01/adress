@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-03-06 12:52:48
+/* Smarty version 3.1.39, created on 2025-03-06 15:53:21
   from 'C:\laragon\www\youradress\themes\hotel-reservation-theme\modules\blocknewsletter\blocknewsletter.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_67c99aa0cdc250_08603689',
+  'unifunc' => 'content_67c9c4f1a0d050_16268061',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67c99aa0cdc250_08603689 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67c9c4f1a0d050_16268061 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!-- Block Newsletter module-->
 <div class="row">

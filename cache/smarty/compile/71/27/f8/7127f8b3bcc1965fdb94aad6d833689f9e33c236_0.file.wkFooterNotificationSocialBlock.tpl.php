@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-03-06 12:52:48
+/* Smarty version 3.1.39, created on 2025-03-06 15:53:21
   from 'C:\laragon\www\youradress\modules\wkfooternotificationblock\views\templates\hook\wkFooterNotificationSocialBlock.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_67c99aa0cc8077_46047532',
+  'unifunc' => 'content_67c9c4f19fdc53_81873134',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67c99aa0cc8077_46047532 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67c9c4f19fdc53_81873134 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="col-sm-3">
 	<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0], array( array('h'=>"displayFooterNotificationHook"),$_smarty_tpl ) );?>

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-03-06 12:52:48
+/* Smarty version 3.1.39, created on 2025-03-06 15:53:18
   from 'C:\laragon\www\youradress\admin312yrca9v\themes\default\template\nav.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_67c99aa01639f3_61152441',
+  'unifunc' => 'content_67c9c4ee5c89a6_96971916',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:search_form.tpl' => 1,
   ),
 ),false)) {
-function content_67c99aa01639f3_61152441 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67c9c4ee5c89a6_96971916 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="bootstrap">
 	<nav id="<?php if ($_smarty_tpl->tpl_vars['employee']->value->bo_menu) {?>nav-sidebar<?php } else { ?>nav-topbar<?php }?>" role="navigation">
 		<?php if (!$_smarty_tpl->tpl_vars['tab']->value) {?>
