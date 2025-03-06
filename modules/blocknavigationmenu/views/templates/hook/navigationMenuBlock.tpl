@@ -41,10 +41,10 @@
 							<a class="navigation-link" href="#">Conseils de Voyage</a>
 						</li>
 						<li>
-							<a class="navigation-link" href="/content/4-propos-de-nous">À Propos</a>
+							<a class="navigation-link" href="/fr/a-propos">À Propos</a>
 						</li>
 						<li>
-							<a class="navigation-link" href="#">Contact</a>
+							<a class="navigation-link" href="/fr/nous-contacter">Contact</a>
 						</li>
 						{* {block name='displayDefaultNavigationHook'}
 							{hook h="displayDefaultNavigationHook"}

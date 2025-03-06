@@ -18,6 +18,20 @@
 *}
 
 {block name='room_types_filters_block'}
+	<link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet" />
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		#map {
+			width: 100%;
+			height: 500px;
+			margin-top: 10px;
+		}
+	</style>
+	<div id="map"></div>
 	<div id="filter_results" class="row block">
 		<div class="col-sm-12">
 			{block name='room_types_amenities_filter'}
@@ -83,4 +97,33 @@
 			{addJsDefL name=bookNowTxt}{l s='Book Now' js=1 mod='wkhotelfilterblock'}{/addJsDefL}
 		{/strip}
 	{/block}
+	{literal}
+		<script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+		<script>
+			mapboxgl.accessToken =
+			'pk.eyJ1IjoibWFoZGkxMDAiLCJhIjoiY203dnhrb2ZmMDExbjJscjFlaTd0ZHFzcCJ9.l3WMtWsKakiAT79ijtVLtQ'; // Remplace avec ta clé API Mapbox
+
+			const map = new mapboxgl.Map({
+				container: 'map', // ID de la div où afficher la carte
+				style: 'mapbox://styles/mapbox/streets-v11', // Style de la carte
+				center: [-7.62, 33.57], // Longitude, Latitude (exemple : Casablanca)
+				zoom: 12
+			});
+
+			// Liste des appartements (remplace avec tes données)
+			const apartments = [
+				{ name: "Studio Confort", lng: -7.62, lat: 33.57, price: "500MAD/Nuit" },
+				{ name: "Studio Lux", lng: -7.63, lat: 33.59, price: "750MAD/Nuit" },
+				{ name: "Appartement - 3 Chambres", lng: -7.61, lat: 33.58, price: "600MAD/Nuit" }
+			];
+
+			// Ajouter des marqueurs et popups
+			apartments.forEach(apartment => {
+				const marker = new mapboxgl.Marker()
+					.setLngLat([apartment.lng, apartment.lat])
+					.setPopup(new mapboxgl.Popup().setHTML(`<h3>${apartment.name}</h3><p>Prix: ${apartment.price}</p>`))
+					.addTo(map);
+			});
+		</script>
+	{/literal}
 {/block}
