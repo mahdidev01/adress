@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-03-06 09:08:09
+/* Smarty version 3.1.39, created on 2025-03-06 12:52:48
   from 'C:\laragon\www\youradress\themes\hotel-reservation-theme\modules\blocksocial\blocksocial.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_67c965f9c9f256_79494979',
+  'unifunc' => 'content_67c99aa0cff956_74744990',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67c965f9c9f256_79494979 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67c99aa0cff956_74744990 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="row">
     <section class="col-xs-12 col-sm-12">

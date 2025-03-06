@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-03-06 09:08:09
+/* Smarty version 3.1.39, created on 2025-03-06 12:52:57
   from 'C:\laragon\www\youradress\modules\wkroomsearchblock\views\templates\hook\landingPageXsBtn.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_67c965f9dd2528_19673809',
+  'unifunc' => 'content_67c99aa9289927_88322024',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,21 +20,21 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67c965f9dd2528_19673809 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67c99aa9289927_88322024 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_187559593067c965f9dd1d48_90982630', 'landing_page_search_button_mobile');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_139466442567c99aa9288e49_12190410', 'landing_page_search_button_mobile');
 }
 /* {block 'landing_page_search_button_mobile'} */
-class Block_187559593067c965f9dd1d48_90982630 extends Smarty_Internal_Block
+class Block_139466442567c99aa9288e49_12190410 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'landing_page_search_button_mobile' => 
   array (
-    0 => 'Block_187559593067c965f9dd1d48_90982630',
+    0 => 'Block_139466442567c99aa9288e49_12190410',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

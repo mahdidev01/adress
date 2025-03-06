@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-03-06 09:13:14
+/* Smarty version 3.1.39, created on 2025-03-06 12:53:01
   from 'C:\laragon\www\youradress\modules\wkroomsearchblock\views\templates\front\location-options.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_67c9672a1bebc0_92788139',
+  'unifunc' => 'content_67c99aadb77fe3_26592501',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67c9672a1bebc0_92788139 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67c99aadb77fe3_26592501 (Smarty_Internal_Template $_smarty_tpl) {
 if ((isset($_smarty_tpl->tpl_vars['location_categories']->value)) && is_array($_smarty_tpl->tpl_vars['location_categories']->value)) {?>
     <?php
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['location_categories']->value, 'category');

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-03-06 09:13:19
+/* Smarty version 3.1.39, created on 2025-03-06 12:52:52
   from 'C:\laragon\www\youradress\themes\hotel-reservation-theme\_partials\occupancy_field.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_67c9672f81dc75_19147509',
+  'unifunc' => 'content_67c99aa41dd5a8_29234767',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,30 +20,30 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67c9672f81dc75_19147509 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67c99aa41dd5a8_29234767 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
 
 <div class="form-group dropdown">
     <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_80314048667c9672f7fcb76_72144871', 'occupancy_field_button');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_56661504367c99aa41c1440_44189718', 'occupancy_field_button');
 ?>
 
 
     <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_198691347667c9672f802a63_21306768', 'occupancy_field_content');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_45974083767c99aa41c7348_05667756', 'occupancy_field_content');
 ?>
 
 </div>
 <?php }
 /* {block 'occupancy_field_button'} */
-class Block_80314048667c9672f7fcb76_72144871 extends Smarty_Internal_Block
+class Block_56661504367c99aa41c1440_44189718 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'occupancy_field_button' => 
   array (
-    0 => 'Block_80314048667c9672f7fcb76_72144871',
+    0 => 'Block_56661504367c99aa41c1440_44189718',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -84,7 +84,7 @@ echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUG
 }
 /* {/block 'occupancy_field_button'} */
 /* {block 'occupancy_field_actions'} */
-class Block_164019242267c9672f81b067_82065992 extends Smarty_Internal_Block
+class Block_174506584667c99aa41da9f4_62441072 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -109,16 +109,16 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'occupancy_field_actions'} */
 /* {block 'occupancy_field_content'} */
-class Block_198691347667c9672f802a63_21306768 extends Smarty_Internal_Block
+class Block_45974083767c99aa41c7348_05667756 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'occupancy_field_content' => 
   array (
-    0 => 'Block_198691347667c9672f802a63_21306768',
+    0 => 'Block_45974083767c99aa41c7348_05667756',
   ),
   'occupancy_field_actions' => 
   array (
-    0 => 'Block_164019242267c9672f81b067_82065992',
+    0 => 'Block_174506584667c99aa41da9f4_62441072',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -334,7 +334,7 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
                 <?php }?>
             </div>
             <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_164019242267c9672f81b067_82065992', 'occupancy_field_actions', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_174506584667c99aa41da9f4_62441072', 'occupancy_field_actions', $this->tplIndex);
 ?>
 
         </div>

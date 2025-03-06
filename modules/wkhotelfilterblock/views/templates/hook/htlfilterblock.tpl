@@ -25,10 +25,21 @@
 			padding: 0;
 		}
 
+		div#left_column {
+			height: 100vh;
+			position: sticky;
+			top: 0;
+			overflow: hidden;
+		}
+
 		#map {
 			width: 100%;
-			height: 500px;
+			height: 100vh;
 			margin-top: 10px;
+		}
+
+		.header-rmsearch-wrapper {
+			display: none;
 		}
 	</style>
 	<div id="map"></div>
@@ -101,7 +112,7 @@
 		<script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
 		<script>
 			mapboxgl.accessToken =
-			'pk.eyJ1IjoibWFoZGkxMDAiLCJhIjoiY203dnhrb2ZmMDExbjJscjFlaTd0ZHFzcCJ9.l3WMtWsKakiAT79ijtVLtQ'; // Remplace avec ta clé API Mapbox
+				'pk.eyJ1IjoibWFoZGkxMDAiLCJhIjoiY203dnhrb2ZmMDExbjJscjFlaTd0ZHFzcCJ9.l3WMtWsKakiAT79ijtVLtQ'; // Remplace avec ta clé API Mapbox
 
 			const map = new mapboxgl.Map({
 				container: 'map', // ID de la div où afficher la carte

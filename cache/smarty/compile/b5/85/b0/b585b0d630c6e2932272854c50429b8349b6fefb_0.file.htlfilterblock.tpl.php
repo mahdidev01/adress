@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-03-06 09:13:19
+/* Smarty version 3.1.39, created on 2025-03-06 12:52:52
   from 'C:\laragon\www\youradress\modules\wkhotelfilterblock\views\templates\hook\htlfilterblock.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_67c9672f6a63a1_16193700',
+  'unifunc' => 'content_67c99aa406dee4_92610690',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b585b0d630c6e2932272854c50429b8349b6fefb' => 
     array (
       0 => 'C:\\laragon\\www\\youradress\\modules\\wkhotelfilterblock\\views\\templates\\hook\\htlfilterblock.tpl',
-      1 => 1741184352,
+      1 => 1741265564,
       2 => 'file',
     ),
   ),
@@ -20,16 +20,16 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67c9672f6a63a1_16193700 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67c99aa406dee4_92610690 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_78164123367c9672f693d88_84758112', 'room_types_filters_block');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_213018960267c99aa4060bb1_22568668', 'room_types_filters_block');
 }
 /* {block 'room_types_amenities_filter'} */
-class Block_170991897167c9672f694367_25270447 extends Smarty_Internal_Block
+class Block_53786891767c99aa4061334_50872308 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -71,7 +71,7 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
 }
 /* {/block 'room_types_amenities_filter'} */
 /* {block 'room_types_price_filter'} */
-class Block_102922257667c9672f69d6c6_21820523 extends Smarty_Internal_Block
+class Block_71941266767c99aa4064310_93577196 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -105,7 +105,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'room_types_price_filter'} */
 /* {block 'room_types_filters_js_vars'} */
-class Block_152768051967c9672f69f9f8_04672694 extends Smarty_Internal_Block
+class Block_159127953867c99aa40667b0_05928692 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -150,24 +150,24 @@ array_pop($_smarty_tpl->smarty->_cache['_tag_stack']);?>
 }
 /* {/block 'room_types_filters_js_vars'} */
 /* {block 'room_types_filters_block'} */
-class Block_78164123367c9672f693d88_84758112 extends Smarty_Internal_Block
+class Block_213018960267c99aa4060bb1_22568668 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'room_types_filters_block' => 
   array (
-    0 => 'Block_78164123367c9672f693d88_84758112',
+    0 => 'Block_213018960267c99aa4060bb1_22568668',
   ),
   'room_types_amenities_filter' => 
   array (
-    0 => 'Block_170991897167c9672f694367_25270447',
+    0 => 'Block_53786891767c99aa4061334_50872308',
   ),
   'room_types_price_filter' => 
   array (
-    0 => 'Block_102922257667c9672f69d6c6_21820523',
+    0 => 'Block_71941266767c99aa4064310_93577196',
   ),
   'room_types_filters_js_vars' => 
   array (
-    0 => 'Block_152768051967c9672f69f9f8_04672694',
+    0 => 'Block_159127953867c99aa40667b0_05928692',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -180,28 +180,39 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 			padding: 0;
 		}
 
+		div#left_column {
+			height: 100vh;
+			position: sticky;
+			top: 0;
+			overflow: hidden;
+		}
+
 		#map {
 			width: 100%;
-			height: 500px;
+			height: 100vh;
 			margin-top: 10px;
+		}
+
+		.header-rmsearch-wrapper {
+			display: none;
 		}
 	</style>
 	<div id="map"></div>
 	<div id="filter_results" class="row block">
 		<div class="col-sm-12">
 			<?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_170991897167c9672f694367_25270447', 'room_types_amenities_filter', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_53786891767c99aa4061334_50872308', 'room_types_amenities_filter', $this->tplIndex);
 ?>
 
 
 			<?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_102922257667c9672f69d6c6_21820523', 'room_types_price_filter', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_71941266767c99aa4064310_93577196', 'room_types_price_filter', $this->tplIndex);
 ?>
 
 		</div>
 	</div>
 	<?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_152768051967c9672f69f9f8_04672694', 'room_types_filters_js_vars', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_159127953867c99aa40667b0_05928692', 'room_types_filters_js_vars', $this->tplIndex);
 ?>
 
 	
@@ -211,7 +222,7 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_152768051967c9672f
 		<?php echo '<script'; ?>
 >
 			mapboxgl.accessToken =
-			'pk.eyJ1IjoibWFoZGkxMDAiLCJhIjoiY203dnhrb2ZmMDExbjJscjFlaTd0ZHFzcCJ9.l3WMtWsKakiAT79ijtVLtQ'; // Remplace avec ta clé API Mapbox
+				'pk.eyJ1IjoibWFoZGkxMDAiLCJhIjoiY203dnhrb2ZmMDExbjJscjFlaTd0ZHFzcCJ9.l3WMtWsKakiAT79ijtVLtQ'; // Remplace avec ta clé API Mapbox
 
 			const map = new mapboxgl.Map({
 				container: 'map', // ID de la div où afficher la carte

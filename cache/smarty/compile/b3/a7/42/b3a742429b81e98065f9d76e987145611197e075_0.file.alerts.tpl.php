@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-03-05 15:52:15
+/* Smarty version 3.1.39, created on 2025-03-06 12:52:48
   from 'C:\laragon\www\youradress\admin312yrca9v\themes\default\template\alerts.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_67c8732f69f5d8_59464897',
+  'unifunc' => 'content_67c99aa0379f03_77110195',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67c8732f69f5d8_59464897 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67c99aa0379f03_77110195 (Smarty_Internal_Template $_smarty_tpl) {
 if ((isset($_smarty_tpl->tpl_vars['conf']->value))) {?>
 	<div class="bootstrap">
 		<div class="alert alert-success">

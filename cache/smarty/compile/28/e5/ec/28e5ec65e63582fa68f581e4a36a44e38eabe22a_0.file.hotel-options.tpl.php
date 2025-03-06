@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-03-06 09:13:15
+/* Smarty version 3.1.39, created on 2025-03-06 12:53:02
   from 'C:\laragon\www\youradress\modules\wkroomsearchblock\views\templates\front\hotel-options.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_67c9672b547ad3_89254510',
+  'unifunc' => 'content_67c99aaedf9503_90057346',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67c9672b547ad3_89254510 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67c99aaedf9503_90057346 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <option value=""></option>
 <?php if ((isset($_smarty_tpl->tpl_vars['hotels_info']->value)) && is_array($_smarty_tpl->tpl_vars['hotels_info']->value)) {?>

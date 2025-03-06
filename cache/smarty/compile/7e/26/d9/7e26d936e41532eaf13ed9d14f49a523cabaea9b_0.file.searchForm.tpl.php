@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-03-06 09:08:09
+/* Smarty version 3.1.39, created on 2025-03-06 12:52:51
   from 'C:\laragon\www\youradress\modules\wkroomsearchblock\views\templates\hook\searchForm.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_67c965f9e31a59_51271823',
+  'unifunc' => 'content_67c99aa3f144a3_83921377',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67c965f9e31a59_51271823 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67c99aa3f144a3_83921377 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
@@ -29,7 +29,7 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, false);
     <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0], array( array('h'=>'displaySearchFormFieldsBefore'),$_smarty_tpl ) );?>
 
     <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_137110234067c965f9e02e68_23565126', "search_form_fields_wrapper");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_140047671167c99aa3eba464_33658954', "search_form_fields_wrapper");
 ?>
 
     </form>
@@ -42,7 +42,7 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_137110234067c965f9
     <?php echo '</script'; ?>
 ><?php }
 /* {block 'search_form_location'} */
-class Block_117040870667c965f9e03238_16760830 extends Smarty_Internal_Block
+class Block_88954395267c99aa3ebaa59_87805181 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -69,7 +69,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'search_form_location'} */
 /* {block 'search_form_hotel'} */
-class Block_168327589467c965f9e06763_08449645 extends Smarty_Internal_Block
+class Block_137796120967c99aa3ed8c87_67756895 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -143,7 +143,7 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
 }
 /* {/block 'search_form_hotel'} */
 /* {block 'search_form_dates'} */
-class Block_104450157767c965f9e13264_09309989 extends Smarty_Internal_Block
+class Block_63902795567c99aa3eeaed0_12745617 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -193,7 +193,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'search_form_dates'} */
 /* {block 'search_form_occupancy'} */
-class Block_134882983067c965f9e19967_89961267 extends Smarty_Internal_Block
+class Block_207437593067c99aa3ef1203_67423952 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -468,7 +468,7 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
 }
 /* {/block 'search_form_occupancy'} */
 /* {block 'search_form_submit'} */
-class Block_102005991567c965f9e30a23_31601495 extends Smarty_Internal_Block
+class Block_147875344367c99aa3f133d5_52036582 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -484,32 +484,32 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'search_form_submit'} */
 /* {block "search_form_fields_wrapper"} */
-class Block_137110234067c965f9e02e68_23565126 extends Smarty_Internal_Block
+class Block_140047671167c99aa3eba464_33658954 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'search_form_fields_wrapper' => 
   array (
-    0 => 'Block_137110234067c965f9e02e68_23565126',
+    0 => 'Block_140047671167c99aa3eba464_33658954',
   ),
   'search_form_location' => 
   array (
-    0 => 'Block_117040870667c965f9e03238_16760830',
+    0 => 'Block_88954395267c99aa3ebaa59_87805181',
   ),
   'search_form_hotel' => 
   array (
-    0 => 'Block_168327589467c965f9e06763_08449645',
+    0 => 'Block_137796120967c99aa3ed8c87_67756895',
   ),
   'search_form_dates' => 
   array (
-    0 => 'Block_104450157767c965f9e13264_09309989',
+    0 => 'Block_63902795567c99aa3eeaed0_12745617',
   ),
   'search_form_occupancy' => 
   array (
-    0 => 'Block_134882983067c965f9e19967_89961267',
+    0 => 'Block_207437593067c99aa3ef1203_67423952',
   ),
   'search_form_submit' => 
   array (
-    0 => 'Block_102005991567c965f9e30a23_31601495',
+    0 => 'Block_147875344367c99aa3f133d5_52036582',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -517,25 +517,25 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 
         <div class="grid" id="search_form_fields_wrapper">
             <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_117040870667c965f9e03238_16760830', 'search_form_location', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_88954395267c99aa3ebaa59_87805181', 'search_form_location', $this->tplIndex);
 ?>
 
             <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_168327589467c965f9e06763_08449645', 'search_form_hotel', $this->tplIndex);
-?>
-
-
-            <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_104450157767c965f9e13264_09309989', 'search_form_dates', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_137796120967c99aa3ed8c87_67756895', 'search_form_hotel', $this->tplIndex);
 ?>
 
 
             <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_134882983067c965f9e19967_89961267', 'search_form_occupancy', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_63902795567c99aa3eeaed0_12745617', 'search_form_dates', $this->tplIndex);
+?>
+
+
+            <?php 
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_207437593067c99aa3ef1203_67423952', 'search_form_occupancy', $this->tplIndex);
 ?>
 
                 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_102005991567c965f9e30a23_31601495', 'search_form_submit', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_147875344367c99aa3f133d5_52036582', 'search_form_submit', $this->tplIndex);
 ?>
 
             </div>

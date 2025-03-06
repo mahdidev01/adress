@@ -234,8 +234,8 @@
     gap: 20px; /* Adds spacing between items */
   }
   img.logo.img-responsive {
-    max-height: 120px !important;
-    width: 170px !important;
+    max-height: 110px !important;
+    width: 140px !important;
   }
   a.header-top-link {
     padding: 0 !important;
@@ -304,4 +304,17 @@
 .fancy_search_header_xs {
   display: none !important;
   }
+}
+
+/* custom search page */
+@media (min-width: 1200px) {
+  .search-page {
+      max-width: 100%;
+  }
+}
+/* .header-rmsearch-wrapper {
+  display: none !important;
+} */
+div#filter_results {
+  display: none !important;
 }

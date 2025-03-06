@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-03-06 09:08:09
+/* Smarty version 3.1.39, created on 2025-03-06 12:52:57
   from 'C:\laragon\www\youradress\modules\wktestimonialblock\views\templates\hook\wktestimonialblock.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_67c965f9bdb946_44094114',
+  'unifunc' => 'content_67c99aa91d86f7_60474833',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,18 +20,18 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67c965f9bdb946_44094114 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67c99aa91d86f7_60474833 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_84066222167c965f9bd51b7_72229066', 'testimonial_block');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_10696784367c99aa91d1f44_45540027', 'testimonial_block');
 ?>
 
 <?php }
 /* {block 'testimonial_block_heading'} */
-class Block_28876848167c965f9bd62f1_96499801 extends Smarty_Internal_Block
+class Block_155986036167c99aa91d3062_87472234 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -43,7 +43,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'testimonial_block_heading'} */
 /* {block 'testimonial_block_description'} */
-class Block_1379831167c965f9bd73e3_58238855 extends Smarty_Internal_Block
+class Block_190509902767c99aa91d4173_67062570 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -55,7 +55,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'testimonial_block_description'} */
 /* {block 'testimonial_block_content'} */
-class Block_28857329967c965f9bd8263_32865333 extends Smarty_Internal_Block
+class Block_92349603367c99aa91d4fd6_54264283 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -104,24 +104,24 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
 }
 /* {/block 'testimonial_block_content'} */
 /* {block 'testimonial_block'} */
-class Block_84066222167c965f9bd51b7_72229066 extends Smarty_Internal_Block
+class Block_10696784367c99aa91d1f44_45540027 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'testimonial_block' => 
   array (
-    0 => 'Block_84066222167c965f9bd51b7_72229066',
+    0 => 'Block_10696784367c99aa91d1f44_45540027',
   ),
   'testimonial_block_heading' => 
   array (
-    0 => 'Block_28876848167c965f9bd62f1_96499801',
+    0 => 'Block_155986036167c99aa91d3062_87472234',
   ),
   'testimonial_block_description' => 
   array (
-    0 => 'Block_1379831167c965f9bd73e3_58238855',
+    0 => 'Block_190509902767c99aa91d4173_67062570',
   ),
   'testimonial_block_content' => 
   array (
-    0 => 'Block_28857329967c965f9bd8263_32865333',
+    0 => 'Block_92349603367c99aa91d4fd6_54264283',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -134,11 +134,11 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
                     <div class="row home_block_desc_wrapper">
                         <div class="col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
                             <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_28876848167c965f9bd62f1_96499801', 'testimonial_block_heading', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_155986036167c99aa91d3062_87472234', 'testimonial_block_heading', $this->tplIndex);
 ?>
 
                             <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1379831167c965f9bd73e3_58238855', 'testimonial_block_description', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_190509902767c99aa91d4173_67062570', 'testimonial_block_description', $this->tplIndex);
 ?>
 
                             <hr class="home_block_desc_line"/>
@@ -146,7 +146,7 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1379831167c965f9bd
                     </div>
                 <?php }?>
                 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_28857329967c965f9bd8263_32865333', 'testimonial_block_content', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_92349603367c99aa91d4fd6_54264283', 'testimonial_block_content', $this->tplIndex);
 ?>
 
             </div>
