@@ -126,17 +126,53 @@
 			map.touchZoomRotate.enable({ cooperative: true });
 
 			// Liste des appartements (remplace avec tes données)
-			const apartments = [
-				{ name: "Studio Confort", lng: -7.62, lat: 33.57, price: "500MAD/Nuit" },
-				{ name: "Studio Lux", lng: -7.63, lat: 33.59, price: "750MAD/Nuit" },
-				{ name: "Appartement - 3 Chambres", lng: -7.61, lat: 33.58, price: "600MAD/Nuit" }
+			const apartments = [{
+					name: "Studio Confort",
+					lng: -7.62,
+					lat: 33.57,
+					price: "500MAD/Nuit",
+					image: "http://localhost/youradress/28-home_default/studio-confort.jpg",
+					link: "http://localhost/youradress/fr/studios/12-studio-lux.html"
+				},
+				{
+					name: "Studio Lux",
+					lng: -7.63,
+					lat: 33.59,
+					price: "750MAD/Nuit",
+					image: "http://localhost/youradress/28-home_default/studio-confort.jpg",
+					link: "http://localhost/youradress/fr/studios/12-studio-lux.html"
+				},
+				{
+					name: "Appartement - 3 Chambres",
+					lng: -7.61,
+					lat: 33.58,
+					price: "600MAD/Nuit",
+					image: "http://localhost/youradress/28-home_default/studio-confort.jpg",
+					link: "http://localhost/youradress/fr/studios/12-studio-lux.html"
+				}, {
+					name: "Appartement - 2 Chambres",
+					lng: -7.60,
+					lat: 33.58,
+					price: "400MAD/Nuit",
+					image: "http://localhost/youradress/28-home_default/studio-confort.jpg",
+					link: "http://localhost/youradress/fr/studios/12-studio-lux.html"
+				}
 			];
 
 			// Ajouter des marqueurs et popups
 			apartments.forEach(apartment => {
 				const marker = new mapboxgl.Marker()
 					.setLngLat([apartment.lng, apartment.lat])
-					.setPopup(new mapboxgl.Popup().setHTML(`<h3>${apartment.name}</h3><p>Prix: ${apartment.price}</p>`))
+					// .setPopup(new mapboxgl.Popup().setHTML(`<h3>${apartment.name}</h3><p>Prix: ${apartment.price}</p>`))
+					.setPopup(new mapboxgl.Popup().setHTML(`<div style="width: 100%; font-family: Arial, sans-serif;">
+<img src="${apartment.image}" style="width: 100%; border-radius: 8px; margin-bottom: 10px;" alt="Appartement">
+<h3 style="margin: 0; font-size: 18px;">${apartment.name}</h3>
+<p style="margin: 5px 0; font-size: 16px; font-weight: bold; color: #333;">${apartment.price}</p>
+<a href="${apartment.link}" target="_blank" 
+           style="display: block; text-align: center; background-color: #379AEF; color: white; padding: 10px; text-decoration: none; border-radius: 5px;">
+           Réserver maintenant
+        </a>
+    </div>`))
 					.addTo(map);
 			});
 		</script>
